@@ -1,31 +1,38 @@
 
 <html>
-
     <head>
         <title>Articulo</title>
+        <!--Link para los iconos-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--Link para la hoja de estilos-->       
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     </head>
-
+    <!--Centramos los elementos del form con center-->
     <body><center>
 <form>
-
-    <h2>Cargar articulo</h2>
+    <!--Añadimos el titulo del formulario-->
+    <h2>Cargar artículo</h2>
+    <!--Creamos un select que nos permita crear un boton con multiples opciones desplegables-->
     <p>
         <select name="color">
             <option> Tipo Subsistema</option>
-          <option>Universidad Tecnologica</option>
-          <option>Universidad Politecnica</option>
-          <option>Instito Tecnologico</option>
+          <option>Universidad Tecnológica</option>
+          <option>Universidad Politécnica</option>
+          <option>Instituto Tecnológico</option>
         </select>
      </p><br/>
-    <input type="text" placeholder=" Tipo de Articulo">  <br/><br/>
+     <!--Creamos los input que nos permiten poner la informacion dentro, pues son tipo texto-->
+    <!--Dentro del placeholder añadimos las letras que van dentro y el icono de font awesome-->
+    <input type="text" placeholder=" Tipo de Artículo">  <br/><br/>
     <input type="text" placeholder=" Autor"> <br/><br/>
-    <textarea name="re" placeholder=" Breve resumen del articulo" ></textarea> <br/><br/>
+    <!--Creamos un textarea que permita almacenar texto en un espacio más aplio-->
+    <textarea name="re" placeholder=" Breve resumen del artículo" ></textarea> <br/><br/>
+     <!--Creamos un botón para subir archivos con un input de tipo file-->
     <input type="file" class="file" placeholder="d"> <br/><br/>
     
     <form>
+        <!--Creamos la referencia a login al pulsar el botón de cargar archivo-->
         <a href="login.html">
             <input type="button" class="car" value="Cargar archivo">
         </a>

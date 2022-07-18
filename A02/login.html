@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Login</title>
+        <title>Login</title>  
+        <!--Link para los iconos-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--Link para la hoja de estilos-->
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
     </head>
+    <!--Centramos los elementos del form con center-->
     <body><center><cuadrado>
+        <!--creamos el formulario con form-->
 <form>
+    <!--Añadimos el titulo del formulario-->
     <h2> Login </h2>
     <br/>
-    
+    <!--Creamos los input que nos permiten poner la informacion dentro, pues son tipo texto-->
+    <!--Dentro del placeholder añadimos las letras que van dentro y el icono de font awesome-->
     <input type="text" class="correo" placeholder=" Correo Electronico " > <br><br> 
-    
     <input type="text" class="llave" placeholder=" Contraseña">  <br><br>
     <form>
+        <!--Creamos la referencia al articulo y el botón que nos redigirá, llamado Login-->
         <a href="articulo.html">
             <input type="button" class="car" value="Login">
         </a><br/><br/>
+        <!--Escribimos una pequeña leyenda debajo del botón-->
         <footer> Al registrarte, aceptas nuestras Condiciones de uso y politica de privacidad</footer>
         <br/>
+        <!--Creamos una referencia en caso de no tener cuneta, que redigirá al registro-->
         <footer>¿No tienes una cuenta?</footer><a href="registro.html">Registrate</a>
     </form>
 </form>

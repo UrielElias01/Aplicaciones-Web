@@ -3,21 +3,22 @@
     padding: 0px;
 
 }
-
+/*Añadimos el fondo de la escuela*/
 body{
     background-image: url(utng.jpg);
 }
+
 form {
-   margin: 240px auto; 
-   width: 400px;
-   height:auto;   
-   background-color:white; 
-   padding: 2px;
-   border-radius: 5px;
+   margin: 240px auto; /*Ponemos un margen en el formulario*/
+   width: 400px;    /*Añadimos un ancho*/
+   height:auto;     /*ponemos una altura automatica*/
+   background-color:white;   /*un color de fondo blanco para el formulario*/
+   padding: 2px;    /*padding de 2 pixeles*/
+   border-radius: 5px; /*agregamos borde redondo ligero para las esquinas curvas*/
 }
 
 input, textarea {
-    padding: 5px; 
+    padding: 5px; /*damos espacio al contenido del input y textarea*/
 }
 
 label {
@@ -25,58 +26,60 @@ label {
     padding: 5px; 
 }
 
-li {
-    margin: 10px; 
-    list-style: none;
-}
-
 .button{
-    margin-top: 20px; 
+    margin-top: 20px; /*agregamos un margen al botón*/
 }
 
   form h2{
-    margin: 20px;
+    margin: 20px;  /*ponemos un margen al h2 para separarlo del resto de elementos*/
+    /*establecemos valores estándar de la fuente*/
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
   }
 
   textarea{
-    height: 100px;
+    height: 100px; /*asignamos una altura de 100 pixeles al textarea y ponemos valores básicos de fuente*/
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
   }
 
   select{
-    height: 30px;
+    height: 30px;  /*ponemos una altura de 30 pixeles al select para que se parezca a los botones*/
+    /*asignamos valoes básicos de la fuente ya usada anteriormente*/
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    /*establecemos valores para el icono*/
     font-family: "Font Awesome 5 Free"; 
     font-weight: 700;
   }
   
   input,textarea,select{
+    /*le damos un ancho de 300 pixeles a todos los input, textarea y select*/
     width: 300px;
   }
 
  
   ::placeholder{
+    /*establecemos valores generales para el icono en todos los placeholder*/
     font-family: "Font Awesome 5 Free"; 
     font-weight: 700; 
   }
 
   .file{
+    /*le asignamos unas lineas que contienen al select y le damos un espacio interno de 5 pixeles*/
     padding: 5px;
     align-items: center;
     width: 300px;
-  height: 50px auto;
-  outline: 1px solid black;
-  outline-offset: -5px;
+    height: 50px auto;
+    outline: 1px solid black;
+    outline-offset: -5px;
   }
 
   .car{
+    /*le ponemos un color gris institucional a todos los botones con la clase car*/
     background-color
     : rgb(139, 141, 141);
   }
